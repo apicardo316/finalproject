@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "676179382505",
+    "project_id": "findie-9f5c6",
+    "storage_bucket": "findie-9f5c6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676179382505:android:69655d4dda26531a90a078",
+        "android_client_info": {
+          "package_name": "apicardo.finalproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGrCfPOxq2y7hEU56zVTkH_eeA1DIBEZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
