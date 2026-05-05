@@ -18,6 +18,15 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders += mapOf(
+            "spotify_auth_scheme" to "findie-app",
+            "spotify_auth_host" to "callback",
+            "redirectSchemeName" to "findie-app",
+            "redirectHostName" to "callback"
+
+        )
+
     }
 
     buildTypes {
@@ -71,10 +80,23 @@ dependencies {
     implementation(libs.retrofit.gson)
     implementation(libs.coil.compose)
     implementation(libs.firebase.analytics)
+    implementation(libs.firebase.auth)
 
 
-    implementation(platform("com.google.firebase:firebase-bom:34.12.0"))
-    implementation("com.google.firebase:firebase-analytics")
+    //implementation(platform("com.google.firebase:firebase-bom:34.12.0"))
+    //implementation("com.google.firebase:firebase-analytics")
 
+    // Retrofit for API calls
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    // OkHttp for logging (helpful for debugging)
+    implementation("com.squareup.okhttp3:logging-interceptor:4.9.1")
+
+
+    // spotify auth SDK
+    implementation(libs.spotify.auth)
+
+    // for API calls in the repository
+    implementation(libs.okhttp)
 
 }
