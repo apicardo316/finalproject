@@ -1,4 +1,4 @@
-package apicardo.finalproject.ui.theme
+package apicardo.project.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

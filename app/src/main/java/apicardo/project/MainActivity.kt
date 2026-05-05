@@ -1,4 +1,4 @@
-package apicardo.finalproject
+package apicardo.project
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -15,7 +15,7 @@ import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import apicardo.finalproject.ui.theme.MyApplicationTheme
+import apicardo.project.ui.theme.MyApplicationTheme
 import androidx.compose.ui.graphics.vector.ImageVector
 
 class MainActivity : ComponentActivity() {

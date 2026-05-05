@@ -1,4 +1,4 @@
-package apicardo.finalproject
+package apicardo.project
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

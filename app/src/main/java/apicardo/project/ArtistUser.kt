@@ -1,4 +1,4 @@
-package apicardo.finalproject
+package apicardo.project
 
 data class ArtistUser(
     val spotifyId: String = "",

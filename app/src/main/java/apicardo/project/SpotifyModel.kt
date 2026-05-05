@@ -1,4 +1,4 @@
-package apicardo.finalproject
+package apicardo.project
 
 // model for UI
 data class SpotifyArtist(

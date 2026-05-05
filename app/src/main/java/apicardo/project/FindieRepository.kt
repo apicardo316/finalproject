@@ -1,4 +1,4 @@
-package apicardo.finalproject
+package apicardo.project
 
 
 import android.net.Uri

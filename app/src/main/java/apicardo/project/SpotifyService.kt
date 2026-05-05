@@ -1,4 +1,4 @@
-package apicardo.finalproject
+package apicardo.project
 
 import retrofit2.http.*
 import com.google.gson.annotations.SerializedName

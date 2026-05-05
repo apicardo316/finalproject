@@ -1,4 +1,4 @@
-package apicardo.finalproject
+package apicardo.project
 
 // In RetrofitClient.kt
 import com.google.gson.GsonBuilder

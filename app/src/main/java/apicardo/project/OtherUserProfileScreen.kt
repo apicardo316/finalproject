@@ -1,4 +1,4 @@
-package apicardo.finalproject
+package apicardo.project
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*

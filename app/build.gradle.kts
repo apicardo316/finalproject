@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "apicardo.finalproject"
+    namespace = "apicardo.project"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "apicardo.finalproject"
+        applicationId = "apicardo.project"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
