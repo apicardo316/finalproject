@@ -10,3 +10,5 @@ External API (25 points)
 File Upload/Download (25 points)
 In app messaging (25 points)
 
+Also small note, the sign up button will automatically create an account, so make sure to type an email and password first before clicking it.
+
