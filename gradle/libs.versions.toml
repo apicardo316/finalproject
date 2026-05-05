@@ -39,12 +39,14 @@ firebase-storage = { group = "com.google.firebase", name = "firebase-storage" }
 firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
 firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
 
-
+# retrofit
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
 retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
 
+# images
 coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 
+# spotify authentication
 spotify-auth = { group = "com.spotify.android", name = "auth", version.ref = "spotifyAuth" }
 okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
 

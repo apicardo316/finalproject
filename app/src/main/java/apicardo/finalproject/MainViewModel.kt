@@ -102,8 +102,6 @@ class MainViewModel : ViewModel() {
         repo.getUserData(uid) { updatedUser -> _currentUser.value = updatedUser }
     }
 
-
-
     // helper function to handle token logic for all Spotify calls
     private suspend fun getValidToken(): String? {
         if (spotifyAccessToken == null) {
@@ -143,7 +141,6 @@ class MainViewModel : ViewModel() {
         }
     }
 }
-
 
 sealed class UIState {
     object Loading : UIState()

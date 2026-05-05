@@ -47,7 +47,6 @@ class LoginViewModel : ViewModel() {
             }
             .addOnFailureListener { onResult(it.message) }
     }
-
     fun logout() {
         auth.signOut()
         _isLoggedIn.value = false

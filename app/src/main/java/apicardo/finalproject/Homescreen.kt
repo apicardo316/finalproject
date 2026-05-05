@@ -31,7 +31,6 @@ import androidx.compose.foundation.background
 fun HomeScreen(viewModel: MainViewModel, onUserClick: (String) -> Unit) {
     val posts by viewModel.posts.observeAsState(initial = emptyList())
     val currentUser by viewModel.currentUser.observeAsState()
-
     val mediaPlayer = remember { MediaPlayer() }
     var playingPostId by remember { mutableStateOf<String?>(null) }
     var selectedPostForComments by remember { mutableStateOf<Post?>(null) }

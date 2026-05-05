@@ -151,7 +151,6 @@ fun MainAppContent(user: ArtistUser, viewModel: MainViewModel, loginViewModel: L
     }
 }
 
-
 enum class AppDestinations(val label: String, val icon: ImageVector) {
     HOME("Home", Icons.Default.Home),
     MESSAGES("Chat", Icons.Default.Email),
